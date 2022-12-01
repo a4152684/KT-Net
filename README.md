@@ -33,22 +33,22 @@ Installation instructions for Ubuntu 18.04:
   ```
   
 ## Dataset & Pretrained model
-- [3DEPN]();
+- [3DEPN](https://drive.google.com/file/d/1Op0M1xN_eW2khWdVDRga0n1x66eF4dEB/view);
 - [CRN](https://github.com/junzhezhang/shape-inversion) Refer to ShapeInversion;
 - [Real-World Data](https://github.com/xuelin-chen/pcl2pcl-gan-pub) Refer to Pcl2Pcl;
 - [Pretrained Weights]().
-Also, you can download them from [BaiduDisk](https://pan.baidu.com/s/13GoHmTJ-jqg1zBgRbIUmNQ)(Code:0di4). Please place the data to ```./dataset``` and the pretrained model to '''./pretrain'''.
+Also, you can download them from [BaiduDisk](https://pan.baidu.com/s/13GoHmTJ-jqg1zBgRbIUmNQ)(Code:0di4). Please place the data to ```./dataset``` and the pretrained model to ```./pretrain```.
 
 ## Train && Test
-To train the model, you can edit the parameter in the file '''train_KT.sh''' and run the command:
-  '''
+To train the model, you can edit the parameter in the file ```train_KT.sh``` and run the command:
+  ```
   sh train_KT.sh
-  '''
+  ```
 
-To test the model, you can edit the parameter in the file '''test_KT.sh''' and run the command:
-  '''
+To test the model, you can edit the parameter in the file ```test_KT.sh``` and run the command:
+  ```
   sh test_KT.sh
-  '''
+  ```
  
  ## Acknowledgement
 The code is in part built on [MSC](https://github.com/ChrisWu1997/Multimodal-Shape-Completion). 
