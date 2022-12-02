@@ -1,8 +1,8 @@
-h5py==3.7.0
-ninja==1.11.1
-numpy==1.23.5
-plyfile==0.7.4
-protobuf==3.20.1
-tensorboardX==2.5.1
-torch==1.6.0
-tqdm==4.64.1
+h5py
+ninja
+numpy
+plyfile
+protobuf
+tensorboardX
+torch
+tqdm
