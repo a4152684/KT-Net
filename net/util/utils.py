@@ -146,9 +146,6 @@ def remkdir(path):
         shutil.rmtree(path)
     os.makedirs(path)
 
-
-# yield 的作用就是把一个函数变成一个 generator，带有 yield 的函数不再是一个普通函数，Python 解释器会将其视为一个 generator，调用 fab(5) 不会执行 fab 函数，而是返回一个 iterable 对象
-# 每执行到一个 yield 语句就会中断，并返回一个迭代值，下次执行时从 yield 的下一个语句继续执行
 def cycle(iterable):
     while True:
         for x in iterable:
