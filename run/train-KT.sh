@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-CUDA_VISIBLE_DEVICES=1 python net/train.py \
+python net/train.py \
                 --proj_dir logs/train_kt \
                 --exp_name ${6}-${1} \
                 --module KT \
