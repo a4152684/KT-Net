@@ -7,4 +7,4 @@ python net/test.py \
                 --category ${1} \
                 --latent_dim ${2} \
                 --dataset_path dataset/${3} \
-                --pretrain_path pretrain/${3}/${1}.pth \
+                --pretrain_path pretrain/${3}/${1}.pth
