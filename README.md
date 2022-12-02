@@ -16,14 +16,9 @@ Specifically, The code has been tested with:
   conda create -n kt-net python=3.8
   conda activate kt-net
   ```
-Installation instructions for Ubuntu 18.04:
-   * Make sure <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">CUDA</a>  and <a href="https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html">cuDNN</a> are installed. Only this configurations has been tested:
-     - Python 3.8.15, Pytorch 1.6.0
-    * Follow <a href="https://pytorch.org/">Pytorch installation procedure</a>. Note that the version of cudatoolkit must be strictly consistent with the version of CUDA
-
 - Intall some packages.
   ```
-  pip install -r requirements
+  pip install -r requirements.txt
   ```
 - Install EMD.
   ```
@@ -36,8 +31,8 @@ Installation instructions for Ubuntu 18.04:
 - [3DEPN](https://drive.google.com/file/d/1Op0M1xN_eW2khWdVDRga0n1x66eF4dEB/view);
 - [CRN](https://github.com/junzhezhang/shape-inversion) Refer to ShapeInversion;
 - [Real-World Data](https://github.com/xuelin-chen/pcl2pcl-gan-pub) Refer to Pcl2Pcl;
-- [Pretrained Weights]().
-Also, you can download them from [BaiduDisk](https://pan.baidu.com/s/13GoHmTJ-jqg1zBgRbIUmNQ)(Code:0di4). Please place the data to ```./dataset``` and the pretrained model to ```./pretrain```.
+- [Pretrained Weights](https://drive.google.com/drive/folders/18FCCGK1F80-4wVjpLplrQW4hvsGbJ1_1?usp=share_link).
+Also, you can download them from [BaiduDisk](https://pan.baidu.com/s/1fEHwZT3Hzy6fIlChsddjzg)(Code: m6r7). Please place the data to ```./dataset``` and the pretrained model to ```./pretrain```.
 
 ## Train && Test
 To train the model, you can edit the parameter in the file ```train_KT.sh``` and run the command:
